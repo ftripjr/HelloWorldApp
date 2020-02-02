@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/colorAccent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -12,7 +13,23 @@
         android:id="@+id/tvGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
         android:text="Hello from Freddie!"
         android:textColor="@android:color/black"
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTxtColor"
+        android:layout_width="286dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/tvGreeting"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="63dp"
+        android:text="Change Text Color" />
 </RelativeLayout>
